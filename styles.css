@@ -1,3 +1,35 @@
 body{
     background-color: antiquewhite;
 }
+
+.container{
+    display:grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+
+    resize: both;
+    overflow: auto;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid gray;
+    background-color: skyblue;
+}
+
+.item{
+    text-align: center;
+    background-color: #444;
+    color: #ddd;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+
+
+
+
+p{
+    margin: 12px auto 24px;
+}
+
+img{
+    height: 60px;
+}
